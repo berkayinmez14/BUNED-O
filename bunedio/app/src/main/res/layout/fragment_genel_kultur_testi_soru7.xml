@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8d18b"
+    tools:context=".GenelKulturTestiSoru7" >
+
+    <TextView
+        android:id="@+id/textKulturTestiSoru7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hippopotomonstrosesquippedaliophobia kavramıyla ilgili doğru ifade hangisidir?"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textKulturMesaj7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturTestiSoru7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewSonSoru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturMesaj7"
+        android:src="@drawable/sonsoru"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonKulturA7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewSonSoru"
+        android:text="A"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonA7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewSonSoru"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonKulturA7"
+        android:text="Korku filmi karakterlerinin sırasıyla adlandırılması"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturA7"
+        android:text="B"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textKulturButtonB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonA7"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonKulturB7"
+        android:text="Uzun kelimelerden korkma"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturC7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturB7"
+        android:text="C"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonC7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonB7"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonKulturC7"
+        android:text="Çiçek isimlerinin uzunluğu"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturD7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturC7"
+        android:text="D"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonD7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonC7"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@id/buttonKulturD7"
+        android:text="Deniz canlılarının sınıflandırılması"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

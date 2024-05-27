@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9874A7"
+    tools:context=".AskTestiSoru2" >
+
+    <TextView
+        android:id="@+id/textAskTestiSoru2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bir ilişkide hangi özelliklere daha çok önem verirsin?"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textAskMesaj2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskTestiSoru2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewAskTestiSoru2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskMesaj2"
+        android:src="@drawable/asktestisoru2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonAskA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_below="@id/gifImageViewAskTestiSoru2"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textAskButtonA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewAskTestiSoru2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonAskA1"
+        android:text="Duygusal bağlılık ve anlayış"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonAskB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:layout_below="@id/buttonAskA1"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textAskButtonB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskButtonA1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonAskB1"
+        android:text="Eğlence ve macera"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonAskC1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_below="@id/buttonAskB1"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"  />
+
+    <TextView
+        android:id="@+id/textAskButtonC1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskButtonB1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/buttonAskC1"
+        android:text="Güvenilirlik ve sadakat"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonAskD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:layout_below="@id/buttonAskC1"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textAskButtonD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskButtonC1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/buttonAskD1"
+        android:text="Bağımsızlık ve özgürlük"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonAskUcuncuSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

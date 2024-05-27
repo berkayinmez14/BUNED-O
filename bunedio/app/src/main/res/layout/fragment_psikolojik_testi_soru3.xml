@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1DE9B6"
+    tools:context=".PsikolojikTestiSoru3" >
+
+    <TextView
+        android:id="@+id/textPsikolojiSoru3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kötü bir günün ardından sana ne iyi geliyor?"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textPsikolojiMesaj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiSoru3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewTavanaBakma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiMesaj3"
+        android:src="@drawable/tavanabakmagifi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonPsikolojiA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_below="@id/gifImageViewTavanaBakma"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewTavanaBakma"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonPsikolojiA2"
+        android:textSize="18sp"
+        android:text="Sadece dinlenmek" />
+
+    <Button
+        android:id="@+id/buttonPsikolojiB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPsikolojiA2"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="B" />
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiButtonA2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonPsikolojiB2"
+        android:text="Kendime vakit ayırmak"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonPsikolojiC2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPsikolojiB2"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="C" />
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonC2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiButtonB2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/buttonPsikolojiC2"
+        android:text="Arkadaşlarımla dışarıda eğlenmek"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonPsikolojiD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPsikolojiC2"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="D" />
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiButtonC2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonPsikolojiD2"
+        android:text="İşimle meşgul olmak"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonPsikolojiDorduncuSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

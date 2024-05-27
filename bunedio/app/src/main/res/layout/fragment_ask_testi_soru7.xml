@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c9a0dc"
+    tools:context=".AskTestiSoru7" >
+
+    <TextView
+        android:id="@+id/textAskTestiSoru7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evlilik aşkı öldürür mü ?"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textAskMesaj7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskTestiSoru7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <ImageView
+        android:id="@+id/imageViewEvlilik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/evlilik"
+        android:layout_below="@id/textAskMesaj7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonAskA6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_below="@id/imageViewEvlilik"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textAskButtonA6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewEvlilik"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonAskA6"
+        android:text="Evet,zamanla aşk yerini rutine bırakır."
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonAskB6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:layout_below="@id/buttonAskA6"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textAskButtonB6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskButtonA6"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonAskB6"
+        android:text="Hayır, aşk evlilikle daha da yeşerir."
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonAskC6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_below="@id/buttonAskB6"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textAskButtonC6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskButtonB6"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonAskC6"
+        android:text="Aşkı canlı tutmak çiftlerin çabasına bağlıdır"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonAskD6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:layout_below="@id/buttonAskC6"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textAskButtonD6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskButtonC6"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonAskD6"
+        android:text="Bu tamamen kişisel bir deneyim,herkes farklı sonuçta"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+    </LinearLayout>
+</RelativeLayout>

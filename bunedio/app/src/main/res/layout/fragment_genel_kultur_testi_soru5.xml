@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdf00"
+    tools:context=".GenelKulturTestiSoru5" >
+
+    <TextView
+        android:id="@+id/textKulturTestiSoru5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2024 Oscar ‘En iyi erkek oyuncu’ ödülünü alan oyuncu kimdir?"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textKulturMesaj5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturTestiSoru5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewOscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturMesaj5"
+        android:src="@drawable/oscargif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonKulturA5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewOscar"
+        android:text="A"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonA5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewOscar"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonKulturA5"
+        android:text="Cilian Murphy"
+        android:textColor="@color/black"
+        android:textSize="21sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturB5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturA5"
+        android:text="B"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonB5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonA5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_toEndOf="@id/buttonKulturB5"
+        android:text="Bradley Cooper"
+        android:textColor="@color/black"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/buttonKulturC5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturB5"
+        android:text="C"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonC5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonB5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonKulturC5"
+        android:text="Leonardo Di Caprio"
+        android:textColor="@color/black"
+        android:textSize="21sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturD5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturC5"
+        android:text="D"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonD5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonC5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@id/buttonKulturD5"
+        android:text="Jeffrey Wright"
+        android:textColor="@color/black"
+        android:textSize="21sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonKulturAltinciSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

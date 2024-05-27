@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".KisilikTestiSoru6" >
+
+    <TextView
+        android:id="@+id/textSoru6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birisi size yardım teklif ettiğinde tepkiniz ne olur"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textMesaj6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textSoru6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewYardimTeklifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yardimteklifi"
+        android:layout_below="@id/textMesaj6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonA6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewYardimTeklifi"
+        android:text="A"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textButtonA6"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/gifImageViewYardimTeklifi"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonA6"
+        android:text="Teşekkür eder ve yardımı kabul ederim"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonB6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonA6"
+        android:text="B"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textButtonB6"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/textButtonA6"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonB6"
+        android:text="Kendi başıma halletmeye çalışırım ve yardımı reddederim"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonC6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonB6"
+        android:text="C"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textButtonC6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textButtonB6"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonC6"
+        android:text="Yardımı kullanarak karşıdakini manipüle etmeye çalışırım"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonD6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonC6"
+        android:text="D"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textButtonD6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textButtonC6"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonD6"
+        android:text="Açık bir şekilde ihtiyacım olduğunu ifade eder ve yardımı kabul ederim"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonAltinciSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2725b"
+    tools:context=".GenelKulturTestiSoru2" >
+
+    <TextView
+        android:id="@+id/textKulturTestiSoru2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hangi ilimizin sadece bir komşusu vardır?"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textKulturMesaj2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturTestiSoru2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error"  />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewTurkiye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturMesaj2"
+        android:src="@drawable/turkbayragif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonKulturA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewTurkiye"
+        android:text="A"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewTurkiye"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonKulturA2"
+        android:text="Ardahan"
+        android:textColor="@color/black"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturA2"
+        android:text="B"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonA2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonKulturB2"
+        android:text="Kilis"
+        android:textColor="@color/black"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturC2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturB2"
+        android:text="C"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonC2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonB2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonKulturC2"
+        android:text="Çankırı"
+        android:textColor="@color/black"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturC2"
+        android:text="D"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonC2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonKulturD2"
+        android:text="Sinop"
+        android:textColor="@color/black"
+        android:textSize="23sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonKulturUcuncuSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+

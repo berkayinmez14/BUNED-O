@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEA96"
+    tools:context=".KisilikTestiSoru4" >
+
+    <TextView
+        android:id="@+id/textSoru4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sosyal etkileşimler sırasında nasıl olursunuz"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textMesaj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textSoru4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewSosyalEtkilesim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yalnizlikgifi"
+        android:layout_below="@id/textMesaj4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/buttonA4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewSosyalEtkilesim"
+        android:text="A"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textButtonA4"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/gifImageViewSosyalEtkilesim"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonA4"
+        android:text="Konuşkan ve dışa dönük olurum"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonB4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:layout_below="@id/buttonA4"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textButtonB4"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/textButtonA4"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/buttonB4"
+        android:textSize="18sp"
+        android:text="Daha çok dinlemeyi tercih ederim" />
+
+    <Button
+        android:id="@+id/buttonC4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonB4"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="C" />
+
+    <TextView
+        android:id="@+id/textButtonC4"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/textButtonB4"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:layout_toEndOf="@id/buttonC4"
+        android:text="Herkesle eşit derecede iletişim kurarım" />
+
+    <Button
+        android:id="@+id/buttonD4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/buttonC4"
+        android:layout_marginTop="20dp"
+        android:text="D" />
+
+    <TextView
+        android:id="@+id/textButtonD4"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/textButtonC4"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:layout_toEndOf="@id/buttonD4"
+        android:text="Sessiz ve gözlemci bir rol alırım" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonDorduncuSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

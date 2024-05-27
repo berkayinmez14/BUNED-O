@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79ec"
+    tools:context=".GenelKulturTestiSoru3" >
+
+    <TextView
+        android:id="@+id/textKulturTestiSoru3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panama Kanalı,hangi iki okyanusu birbirine bağlar?"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textKulturMesaj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturTestiSoru3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewPanama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturMesaj3"
+        android:src="@drawable/panama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonKulturA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewPanama"
+        android:text="A"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewPanama"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonKulturA3"
+        android:text="Atlas Okyanusu - Hint Okyanusu"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturA3"
+        android:text="B"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonA3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/buttonKulturB3"
+        android:text="Hint Okyanusu - Güney Okyanusu"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturC3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturB3"
+        android:text="C"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonC3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonB3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/buttonKulturC3"
+        android:text="Atlas Okyanusu - Pasifik Okyanusu"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturC3"
+        android:text="D"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textKulturButtonD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonC3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/buttonKulturD3"
+        android:text="Arktik Okyanusu - Atlas Okyanusu"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonKulturDorduncuSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

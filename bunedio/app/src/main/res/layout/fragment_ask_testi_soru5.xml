@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AskTestiSoru5"
+    android:background="#ffe5b4">
+
+    <TextView
+        android:id="@+id/textAskTestiSoru5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sence ruh eşi ne demek"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textAskMesaj5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskTestiSoru5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewRuhEsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskMesaj5"
+        android:src="@drawable/ruhesigif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonAskA4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_below="@id/gifImageViewRuhEsi"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textAskButtonA4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewRuhEsi"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonAskA4"
+        android:text="Senden başka bir insanın sana benzemesi"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonAskB4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:layout_below="@id/buttonAskA4"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textAskButtonB4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskButtonA4"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonAskB4"
+        android:text="Aşk adı hayatında uydurulmuş başka bir kelime"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonAskC4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_below="@id/buttonAskB4"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textAskButtonC4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskButtonB4"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonAskC4"
+        android:text="Yüksek tutku ve ten uyumu olan iki insan"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonAskD4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:layout_below="@id/buttonAskC4"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/textAskButtonD4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAskButtonC4"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonAskD4"
+        android:text="Hiç benzemeyen iki insanın birbirine bağlılığı"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonAskAltinciSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

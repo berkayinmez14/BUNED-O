@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".KisilikTestiSoru2" >
+
+    <TextView
+        android:id="@+id/textSoru2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bir tartışma sırasında tepkiniz ne olur"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/textMesaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textSoru2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewTartisma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tartismagifi"
+        android:layout_below="@id/textMesaj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewTartisma"
+        android:text="A"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textButtonA"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/gifImageViewTartisma"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonA"
+        android:text="Sakin kalırım ve konuşmayı dinlerim."
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonA"
+        android:layout_marginTop="10dp"
+        android:text="B"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textButtonB"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/textButtonA"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonB"
+        android:text="Hemen saldırgan bir tutum alırım"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonB"
+        android:layout_marginTop="10dp"
+        android:text="C"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textButtonC"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/buttonB"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonC"
+        android:text="Karşımdakini manipüle etmeye çalışırım."
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonC"
+        android:layout_marginTop="10dp"
+        android:text="D"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textButtonD"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/textButtonC"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonD"
+        android:text="Dürüstçe duygularımı ifade ederim."
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonIkinciSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
+

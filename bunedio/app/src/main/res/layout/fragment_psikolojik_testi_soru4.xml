@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BEFF03"
+    tools:context=".PsikolojikTestiSoru4" >
+
+    <TextView
+        android:id="@+id/textPsikolojiSoru4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bunlardan hangisini unutamadın?"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textPsikolojiMesaj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiSoru4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <ImageView
+        android:id="@+id/ImageViewUnutamiyorum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiMesaj4"
+        android:src="@drawable/unutamiyorum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonPsikolojiA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_below="@id/ImageViewUnutamiyorum"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImageViewUnutamiyorum"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonPsikolojiA3"
+        android:text="Yaşadığım ayrılığı unutamadım"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonPsikolojiB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:layout_below="@id/buttonPsikolojiA3"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiButtonA3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonPsikolojiB3"
+        android:textSize="18sp"
+        android:text="Yaşadığım bir kaybı unutamadım" />
+
+    <Button
+        android:id="@+id/buttonPsikolojiC3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_below="@id/buttonPsikolojiB3"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonC3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiButtonB3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonPsikolojiC3"
+        android:textSize="18sp"
+        android:text="Yaşadığım bir başarısızlığı unutamadım" />
+
+    <Button
+        android:id="@+id/buttonPsikolojiD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:layout_below="@id/buttonPsikolojiC3"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiButtonC3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonPsikolojiD3"
+        android:textSize="18sp"
+        android:text="Yaşadığım bir parasızlık dönemini unutamadım" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonPsikolojiBesinciSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

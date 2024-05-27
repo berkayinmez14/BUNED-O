@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdbbd7"
+    tools:context=".YemekTestiSoru4" >
+
+    <TextView
+        android:id="@+id/textYemekSoru4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biz patatesi seven insanlarız.Peki en çok hangi türünü seversin?"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textYemekMesaj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textYemekSoru4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <ImageView
+        android:id="@+id/imageViewKizartma"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/patateskizartma"
+        android:layout_below="@id/textYemekMesaj4"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="0dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewElmaDilim"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/elmadilimpatat"
+        android:layout_below="@id/textYemekMesaj4"
+        android:layout_marginStart="200dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewKasik"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kasikpatates"
+        android:layout_below="@id/imageViewKizartma"
+        android:layout_marginTop="80dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewHaslanmis"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/haslanmispatates"
+        android:layout_below="@id/imageViewElmaDilim"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/buttonKizartma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewKizartma"
+        android:text="Kızartma"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonElmaDilim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewElmaDilim"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="15dp"
+        android:text="Elma Dilim"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonKasik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewKasik"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:text="Kaşık"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonHaslanmis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewHaslanmis"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="10dp"
+        android:text="Haşlanmış"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonYemekBesinciSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

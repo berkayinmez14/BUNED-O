@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffa8eb"
+    tools:context=".YemekTestiSoru5" >
+
+    <TextView
+        android:id="@+id/textYemekSoru5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ortamı biraz şenlendirelim.Seç tarafını bakalım?"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textYemekMesaj5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textYemekSoru5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <ImageView
+        android:id="@+id/imageViewAdana"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/textYemekMesaj5"
+        android:src="@drawable/adanakebap" />
+
+    <ImageView
+        android:id="@+id/imageViewBeyti"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/beytikebap"
+        android:layout_below="@id/textYemekMesaj5"
+        android:layout_marginStart="200dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewCag"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/cagkebap"
+        android:layout_below="@id/imageViewAdana"
+        android:layout_marginTop="80dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewCokertme"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/cokertmekebap"
+        android:layout_below="@id/imageViewBeyti"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/buttonAdana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adana"
+        android:layout_below="@id/imageViewAdana"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonBeyti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beyti"
+        android:layout_below="@id/imageViewBeyti"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="1dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonCag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cağ"
+        android:layout_below="@id/imageViewCag"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonCokertme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewCokertme"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="1dp"
+        android:text="Çökertme"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonYemekAltinciSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

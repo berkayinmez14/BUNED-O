@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".KisilikTestiSoru1">
+
+    <TextView
+        android:id="@+id/textHosGeldin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="16dp"
+        android:text="Kişilik testine hoş geldin"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textCinsiyet"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Cinsiyetinizi seçiniz"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="311dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageErkek"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:src="@drawable/erkek" />
+
+        <ImageView
+            android:id="@+id/imageKadin"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:src="@drawable/kadinfotosu" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonErkek"
+        android:layout_width="149dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="600dp"
+        android:text="Erkek"
+        android:backgroundTint="#FFFF00"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/buttonKadin"
+        android:layout_width="149dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="600dp"
+        android:text="Kadın"
+        android:backgroundTint="#FFFF00"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/secilenCinsiyet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:paddingHorizontal="20dp"
+        android:text="Cinsiyet seçilmedi"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"/>
+
+</FrameLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd800"
+    tools:context=".YemekTestiSoru3" >
+
+    <TextView
+        android:id="@+id/textYemekSoru3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarafını seç bakalım"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textYemekMesaj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textYemekSoru3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <ImageView
+        android:id="@+id/imageViewPide"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/textYemekMesaj3"
+        android:src="@drawable/pide"
+        android:layout_marginTop="100dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewLahmacun"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/textYemekMesaj3"
+        android:src="@drawable/lahmacun"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="200dp"/>
+
+    <Button
+        android:id="@+id/buttonPide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PİDE"
+        android:layout_below="@id/imageViewPide"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="60dp"/>
+
+    <Button
+        android:id="@+id/buttonLahmacun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAHMACUN"
+        android:layout_below="@id/imageViewLahmacun"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="230dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonYemekDorduncuSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

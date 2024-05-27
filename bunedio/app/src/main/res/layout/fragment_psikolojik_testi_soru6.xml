@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#986960"
+    tools:context=".PsikolojikTestiSoru6" >
+
+    <TextView
+        android:id="@+id/textPsikolojiSoru6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hangi düşünce sizi daha fazla huzursuz eder?"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textPsikolojiMesaj6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiSoru6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewDepresyon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiMesaj6"
+        android:src="@drawable/depresyongif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonPsikolojiA5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_below="@id/gifImageViewDepresyon"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonA5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewDepresyon"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonPsikolojiA5"
+        android:text="Gelecekle ilgili belirsizlikler"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonPsikolojiB5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:layout_below="@id/buttonPsikolojiA5"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonB5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiButtonA5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonPsikolojiB5"
+        android:text="Başarısız olma korkusu"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonPsikolojiC5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_below="@id/buttonPsikolojiB5"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonC5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiButtonB5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/buttonPsikolojiC5"
+        android:text="Başkalarının seni beğenmemesi"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonPsikolojiD5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:layout_below="@id/buttonPsikolojiC5"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textPsikolojiButtonD5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPsikolojiButtonC5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/buttonPsikolojiD5"
+        android:text="Sağlık sorunlarıyla ilgili endişeler"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonPsikolojiYedinciSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

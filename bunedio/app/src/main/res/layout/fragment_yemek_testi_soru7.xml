@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0c4de"
+    tools:context=".YemekTestiSoru7" >
+
+    <TextView
+        android:id="@+id/textYemekSoru7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tatlı konuşalım tatlı bitirelim.En çok hangi tatlıyı seversin?"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textYemekMesaj7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textYemekSoru7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <ImageView
+        android:id="@+id/imageViewBaklava"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/baklava"
+        android:layout_below="@id/textYemekMesaj7"/>
+
+    <ImageView
+        android:id="@+id/imageViewKunefe"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kunefe"
+        android:layout_below="@id/textYemekMesaj7"
+        android:layout_marginStart="200dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewSutlac"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sutlac"
+        android:layout_below="@id/imageViewBaklava"
+        android:layout_marginTop="80dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewKadayif"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kadayif"
+        android:layout_below="@id/imageViewKunefe"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/buttonBaklava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baklava"
+        android:layout_below="@id/imageViewBaklava"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonKunefe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Künefe"
+        android:layout_below="@id/imageViewKunefe"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="1dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonSutlac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sütlaç"
+        android:layout_below="@id/imageViewSutlac"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonKadayif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kadayıf"
+        android:layout_below="@id/imageViewKadayif"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="1dp"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+    </LinearLayout>
+</RelativeLayout>

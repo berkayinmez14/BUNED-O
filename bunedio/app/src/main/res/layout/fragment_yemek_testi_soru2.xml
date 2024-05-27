@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3d2b1f"
+    tools:context=".YemekTestiSoru2" >
+
+    <TextView
+        android:id="@+id/textYemekSoru2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza tercihin hangisi olurdu?"
+        android:textSize="18sp"
+        android:textColor="@color/teal_200"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textYemekMesaj2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textYemekSoru2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <ImageView
+        android:id="@+id/imageViewKirmiziEtliPizza"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kirmizietlipizza"
+        android:layout_below="@id/textYemekMesaj2"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="0dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewPeynirliPizza"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/peynirlipizza"
+        android:layout_below="@id/textYemekMesaj2"
+        android:layout_marginStart="200dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewTavukEtliPizza"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/tavuketliyemektesti"
+        android:layout_below="@id/imageViewKirmiziEtliPizza"
+        android:layout_marginTop="90dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewSebzeliPizza"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sebzelipizza"
+        android:layout_below="@id/imageViewPeynirliPizza"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="90dp"/>
+
+    <Button
+        android:id="@+id/buttonKirmiziEtliPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewKirmiziEtliPizza"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Kırmızı Etli Pizza"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonPeynirliPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewPeynirliPizza"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="15dp"
+        android:text="Peynirli Pizza"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonTavukEtliPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewTavukEtliPizza"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Tavuk Etli Pizza"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonSebezzeliPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewSebzeliPizza"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="10dp"
+        android:text="Sebzeli Pizza"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonYemekUcuncuSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0c4de"
+    tools:context=".GenelKulturTestiSoru1" >
+
+    <TextView
+        android:id="@+id/textKulturTestiSoru1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atatürük'ün başucu kitabı aşağıdakişerden hangisdir ?"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/textKulturMesaj1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturTestiSoru1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error"  />
+
+   <pl.droidsonroids.gif.GifImageView
+       android:id="@+id/gifImageViewAtaturk"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/textKulturMesaj1"
+       android:src="@drawable/ataturkgif"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonKulturA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewAtaturk"
+        android:text="A"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewAtaturk"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonKulturA1"
+        android:text="Sergüzeşt"
+        android:textColor="@color/black"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturA1"
+        android:text="B"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonA1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonKulturB1"
+        android:text="Eylül"
+        android:textColor="@color/black"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturC1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturB1"
+        android:text="C"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonC1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonB1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonKulturC1"
+        android:text="İnce Memed"
+        android:textColor="@color/black"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/buttonKulturD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonKulturC1"
+        android:text="D"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textKulturButtonD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKulturButtonC1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/buttonKulturD1"
+        android:text="Çalıkuşu"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonKulturIkinciSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

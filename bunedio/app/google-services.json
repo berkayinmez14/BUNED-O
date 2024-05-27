@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "350865072427",
+    "project_id": "anketuygulamasi-63",
+    "storage_bucket": "anketuygulamasi-63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350865072427:android:66bb46834cc96cdccde56e",
+        "android_client_info": {
+          "package_name": "com.berkus.bunedio.onikisi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4QYwv6ZhyCMQyoa9ykOyqqnNDArLGlcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

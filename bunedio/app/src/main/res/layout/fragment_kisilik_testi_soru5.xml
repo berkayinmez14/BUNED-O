@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD5B8"
+    tools:context=".KisilikTestiSoru5" >
+
+    <TextView
+        android:id="@+id/textSoru5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bir film izlerken genellikle nasıl olursun"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textMesaj5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textSoru5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewFilmİzleme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/filmizlemegif"
+        android:layout_below="@id/textMesaj5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonA5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewFilmİzleme"
+        android:text="A"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textButtonA5"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/gifImageViewFilmİzleme"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonA5"
+        android:text="Olayların hızlı gelişmesini ve aksiyonu tercih ederim"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonB5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonA5"
+        android:text="B"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textButtonB5"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/textButtonA5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonB5"
+        android:textSize="18sp"
+        android:text="Karakterlerin duygusal gelişimini ve ilişkilerini önemserim" />
+
+    <Button
+        android:id="@+id/buttonC5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_below="@id/buttonB5"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textButtonC5"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/textButtonB5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonC5"
+        android:textSize="18sp"
+        android:text="Her türlü hikaye türünden keyif alrım" />
+
+    <Button
+        android:id="@+id/buttonD5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:layout_below="@id/buttonC5"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textButtonD5"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@id/textButtonC5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonD5"
+        android:textSize="18sp"
+        android:text="Sessiz ve gözlemci bir rol alırım,hikayenin derinliklerine inerim" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonBesinciSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

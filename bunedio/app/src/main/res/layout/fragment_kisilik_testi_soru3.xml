@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAC488"
+    tools:context=".KisilikTestiSoru3" >
+
+    <TextView
+        android:id="@+id/textSoru3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birisin size eleştiri getirdiği durumda tepkiniz ne olur?"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/textMesaj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textSoru3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageViewElestiri"
+        android:layout_width="314dp"
+        android:layout_height="210dp"
+        android:layout_below="@id/textMesaj3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/yenigif" />
+
+    <Button
+        android:id="@+id/buttonA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageViewElestiri"
+        android:text="A"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#558B2F"/>
+
+    <TextView
+        android:id="@+id/textButtonA3"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/gifImageViewElestiri"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonA3"
+        android:text="Eleştiriyi kabul eder,gelişim için fırsat olarak görürüm"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonA3"
+        android:text="B"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#558B2F"/>
+
+    <TextView
+        android:id="@+id/textButtonB3"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/textButtonA3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonB3"
+        android:text="Saldurgan bir şekilde karşı çıkar ve savunma yaparım"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonC3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_below="@id/buttonB3"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#558B2F"/>
+
+    <TextView
+        android:id="@+id/textButtonC3"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@id/textButtonB3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonC3"
+        android:text="Eleştiriyi dikkate almamaya çalışır,başkalarını suçlarım"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:layout_below="@id/buttonC3"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#558B2F"/>
+
+    <TextView
+        android:id="@+id/textButtonD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Açık bir şekilde iletişim kurarak eleştiriyi değerlendiririm"
+        android:textSize="18sp"
+        android:layout_below="@id/textButtonC3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonD3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonUcuncuSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Sonraki Soru"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

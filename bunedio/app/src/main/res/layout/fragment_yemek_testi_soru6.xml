@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffefd5"
+    tools:context=".YemekTestiSoru6" >
+
+    <TextView
+        android:id="@+id/textYemekSoru6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sokak lezzetlerine geçelim o zaman.En popüler sokak lezzetlerinden hangisini daha çok seviyorsun"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textYemekMesaj6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textYemekSoru6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <ImageView
+        android:id="@+id/imageViewKumpir"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kumpir"
+        android:layout_below="@id/textYemekMesaj6"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewTantuni"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/tantuni"
+        android:layout_below="@id/textYemekMesaj6"
+        android:layout_marginStart="200dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewKokorec"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kokorec"
+        android:layout_below="@id/imageViewKumpir"
+        android:layout_marginTop="80dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewMidye"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/midyedolma"
+        android:layout_below="@id/imageViewTantuni"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/buttonKumpir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kumpir"
+        android:layout_below="@id/imageViewKumpir"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonTantuni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tantuni"
+        android:layout_below="@id/imageViewTantuni"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="1dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonKokorec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kokorec"
+        android:layout_below="@id/imageViewKokorec"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonMidye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Midye Dolma"
+        android:layout_below="@id/imageViewMidye"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="1dp"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonYemekYedinciSoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:layout_marginStart="130dp"
+            android:text="Sonraki Soru"
+
+            />
+    </LinearLayout>
+</RelativeLayout>
